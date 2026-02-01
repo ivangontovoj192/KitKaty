@@ -239,6 +239,10 @@ h2 {
 	
 }
 
+.st_content img {
+	width: 18%;
+}
+
 
 .st_header {
 	padding-top: 20px;
@@ -439,6 +443,7 @@ h2 {
 	font-weight: bold;
 	text-decoration: none;
 }
+
 
 
 
