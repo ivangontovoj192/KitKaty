@@ -159,7 +159,7 @@ h2 {
 	overflow: hidden;
 	position: relative;
 	margin: 10px 0;
-	width: 30%;
+	width: 28%;
     white-space: normal;
 }
 
@@ -221,6 +221,7 @@ h2 {
 
 .price img {
 	border-radius: 10px;
+	width: 40%;
 }
 .studio {
 	background-color: #e9e9e9;
@@ -438,6 +439,7 @@ h2 {
 	font-weight: bold;
 	text-decoration: none;
 }
+
 
 
 
