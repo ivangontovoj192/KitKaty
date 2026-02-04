@@ -130,6 +130,17 @@ h2 {
 	
 }
 
+@media (max-width: 250px) {
+	
+    h1 {
+		font-size: 250%;
+	}
+	
+	h2 {
+		font-size: 150%;
+	}
+	
+}
 
 
 
@@ -529,6 +540,7 @@ h2 {
 	font-weight: bold;
 	text-decoration: none;
 }
+
 
 
 
