@@ -246,11 +246,11 @@ h2 {
 
 @media (max-width: 850px) {
     .content #gallery .element .bottom .name {
-		font-size: 110%;
+		font-size: 90%;
 	}
 	
 	.content #gallery .element .bottom .cost {
-		font-size: 110%;
+		font-size: 100%;
 	}
 	
 }
@@ -513,6 +513,7 @@ h2 {
 	font-weight: bold;
 	text-decoration: none;
 }
+
 
 
 
