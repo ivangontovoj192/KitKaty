@@ -324,6 +324,27 @@ h2 {
 	line-height: 20px;
 }
 
+.wrap_gallery {
+   background: url("../images/reviews/back.jpg") repeat;
+   border-top: 1px solid #bfbfbf;
+   padding-bottom: 20px;
+   text-align: center;
+}
+
+.rev {
+	color: #4D4D4D;
+	font-size: 200%;
+	font-family: Soledago;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.visible {
+	display: none;
+}
+
 
 .footer {
 	background-color: #e1e1e1;
@@ -443,10 +464,6 @@ h2 {
 	font-weight: bold;
 	text-decoration: none;
 }
-
-
-
-
 
 
 
