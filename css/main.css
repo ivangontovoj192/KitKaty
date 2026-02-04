@@ -416,6 +416,13 @@ h2 {
 	line-height: 140%;
 }
 
+@media (max-width: 850px) {
+    .footer .left {
+       display: none;
+	}
+	
+}
+
 .footer .center {
 	color: #555;
 	text-align: left;
@@ -513,6 +520,7 @@ h2 {
 	font-weight: bold;
 	text-decoration: none;
 }
+
 
 
 
