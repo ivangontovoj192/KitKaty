@@ -28,16 +28,19 @@ body {
 
 @media (max-width: 850px) {
 	.header .wrap {
-		flex-direction: column;
 		padding: 0;	
 	}
-	
-	.header #social {
-		margin-left: 5px;
+    
+	.header .wrap #topmenu {
+		font-size: 90%;
 	}
 	
-	.header #social a:last-child {
-		margin-right: 2px;
+    .top_1 {
+		font-size: 200px;
+	}
+	
+	.top_2 {
+		font-size: 90%;
 	}
 	
 }
@@ -76,6 +79,7 @@ body {
 	border-bottom: 2px solid #bfbfbf;
 	overflow: hidden;
 	position: relative;
+	font-size: 80%;
 	height: 400px;
 }
 
@@ -114,6 +118,21 @@ h2 {
 	z-index: 1;
 }
 
+@media (max-width: 850px) {
+	
+    h1 {
+		font-size: 350%;
+	}
+	
+	h2 {
+		font-size: 200%;
+	}
+	
+}
+
+
+
+
 .content {
 	background-color: #FFCADC;
 	border-bottom: 2px solid #bfbfbf;
@@ -132,7 +151,7 @@ h2 {
 	font-size: 300%;
 	font-weight: bold;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -141,6 +160,18 @@ h2 {
 	font-size: 200%;
 	text-align: center;
 }
+
+@media (max-width: 850px) {
+    .top_1 {
+		font-size: 200%;
+	}
+	
+	.top_2 {
+		font-size: 200%;
+	}
+	
+}
+
 
 
 .content #gallery {
@@ -171,7 +202,8 @@ h2 {
 }
 
 
-.content #gallery .element .bottom {	
+.content #gallery .element .bottom {
+	
 	padding: 15px 15px;
 }
 
@@ -202,12 +234,25 @@ h2 {
 	text-align: center;
 }
 
+
+
 .content #gallery .element .bottom .cost {
 	color: #dd5555;
 	font-family: rsl;
 	font-size: 150%;
 	font-weight: bold;
 	text-align: center;
+}
+
+@media (max-width: 850px) {
+    .content #gallery .element .bottom .name {
+		font-size: 110%;
+	}
+	
+	.content #gallery .element .bottom .cost {
+		font-size: 110%;
+	}
+	
 }
 
 
@@ -240,6 +285,7 @@ h2 {
 }
 
 .st_content img {
+	margin-top: 5px;
 	width: 18%;
 }
 
@@ -284,6 +330,7 @@ h2 {
 }
 
 .mas_content img {
+	margin-top: 5px;
 	width: 150px;
 	height: 200px;
 }
@@ -340,7 +387,6 @@ h2 {
 }
 
 
-
 .visible {
 	display: none;
 }
@@ -356,8 +402,9 @@ h2 {
 .footer .wrap {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 0 15px;
+
 }
 
 .footer .left {
@@ -380,11 +427,13 @@ h2 {
 
 .footer .social {
 	margin-top: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .footer .social p {
 	color: #555;
-	font-size: 150%;
+	font-size: 130%;
 	font-family: rsr;
 	margin: 15px 0;
 }
