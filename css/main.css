@@ -411,11 +411,6 @@ h2 {
 	width: 20%;
 }
 
-.footer .left p {
-	color: #848484;
-	line-height: 140%;
-}
-
 @media (max-width: 850px) {
     .footer .left {
        display: none;
@@ -429,8 +424,22 @@ h2 {
 	font-family: rsr;
 	font-size: 150%;
 	margin-top: 40px;
+	margin-left: 5px;
 	width: 20%;
 }
+
+@media (max-width: 850px) {
+    .footer .center {
+		font-size: 110%;
+	}
+	
+	.footer .center {
+		font-size: 110%;
+	}
+	
+}
+
+
 
 .footer .social {
 	margin-top: 25px;
@@ -520,8 +529,6 @@ h2 {
 	font-weight: bold;
 	text-decoration: none;
 }
-
-
 
 
 
